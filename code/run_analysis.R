@@ -69,7 +69,7 @@ tidy_data <- data %>%
 # Export the data set ------------------------------------------------------
 
 getwd()
-write.table(tidy_data, file = "./tidyData.txt")
+write.table(tidy_data, file = "./tidyData.txt", row.names = F)
 
 
 # End of the script -------------------------------------------------------
